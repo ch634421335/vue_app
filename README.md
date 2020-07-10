@@ -8,7 +8,9 @@
 # 运行  
 `npm run serve`  
 # 查看效果  
-运行成功后终端会提示浏览地址，如果出现`Proxy error: Could not proxy request /api/goods/banner?_limit=3 from localhost:8080 to http://localhost:9001.
+运行成功后终端会提示浏览器地址  
+如果出现`Proxy error: Could not proxy request /api/goods/banner?_limit=3 from localhost:8080 to http://localhost:9001.
 See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).`    
 
-即为未打开服务端。服务端见(链接)[https://github.com/ch634421335/vue_node]
+即为未打开服务端。服务端见(链接)[https://github.com/ch634421335/vue_node]  
+需要导入数据库并打开后台才能登录，后续会修改未为登录也能查看主页。
