@@ -1,0 +1,18 @@
+module.exports={
+    devServer:{
+        proxy:{
+            "api":{
+                target:"http://localhost:9001",
+                changeOrigin:true,
+                ws:true
+            },
+            "/douban":{
+                target:"hottp://douban.uieee.com",
+                changeOrigin:true,
+                pathRewrite:{
+                    "^/douban":"",
+                }
+            }
+        }
+    }
+}
